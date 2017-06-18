@@ -21,7 +21,7 @@ public class MappDigital {
 	
 	@BeforeClass(description = "Set up")
 	public void setUp() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\_ChromeDriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		driver = new ChromeDriver();
 	}
 	

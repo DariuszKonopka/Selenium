@@ -2,84 +2,84 @@
 <testng-results skipped="0" failed="0" ignored="0" total="17" passed="17">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19755" started-at="2017-06-18T08:50:38Z" finished-at="2017-06-18T08:50:58Z">
+  <suite name="Default suite" duration-ms="15410" started-at="2017-06-18T20:47:52Z" finished-at="2017-06-18T20:48:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19755" started-at="2017-06-18T08:50:38Z" finished-at="2017-06-18T08:50:58Z">
+    <test name="Default test" duration-ms="15410" started-at="2017-06-18T20:47:52Z" finished-at="2017-06-18T20:48:08Z">
       <class name="digital.MappDigital">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:digital.MappDigital@59fa1d9b]" name="setUp" is-config="true" duration-ms="3777" started-at="2017-06-18T10:50:38Z" description="Set up" finished-at="2017-06-18T10:50:42Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:digital.MappDigital@59fa1d9b]" name="setUp" is-config="true" duration-ms="2911" started-at="2017-06-18T22:47:52Z" description="Set up" finished-at="2017-06-18T22:47:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="GrabPageTitleToSlot1()[pri:1, instance:digital.MappDigital@59fa1d9b]" name="GrabPageTitleToSlot1" duration-ms="3151" started-at="2017-06-18T10:50:42Z" description="Grab page title and place title text in answer slot #1" finished-at="2017-06-18T10:50:45Z">
+        <test-method status="PASS" signature="GrabPageTitleToSlot1()[pri:1, instance:digital.MappDigital@59fa1d9b]" name="GrabPageTitleToSlot1" duration-ms="2302" started-at="2017-06-18T22:47:55Z" description="Grab page title and place title text in answer slot #1" finished-at="2017-06-18T22:47:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GrabPageTitleToSlot1 -->
-        <test-method status="PASS" signature="FillOutNameSection()[pri:2, instance:digital.MappDigital@59fa1d9b]" name="FillOutNameSection" duration-ms="192" started-at="2017-06-18T10:50:45Z" description="Fill out name section of form to be Kilgore Trout" finished-at="2017-06-18T10:50:46Z">
+        <test-method status="PASS" signature="FillOutNameSection()[pri:2, instance:digital.MappDigital@59fa1d9b]" name="FillOutNameSection" duration-ms="195" started-at="2017-06-18T22:47:58Z" description="Fill out name section of form to be Kilgore Trout" finished-at="2017-06-18T22:47:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillOutNameSection -->
-        <test-method status="PASS" signature="SetOccupation()[pri:3, instance:digital.MappDigital@59fa1d9b]" name="SetOccupation" duration-ms="159" started-at="2017-06-18T10:50:46Z" description="Set occupation on form to Sci-Fi Author" finished-at="2017-06-18T10:50:46Z">
+        <test-method status="PASS" signature="SetOccupation()[pri:3, instance:digital.MappDigital@59fa1d9b]" name="SetOccupation" duration-ms="161" started-at="2017-06-18T22:47:58Z" description="Set occupation on form to Sci-Fi Author" finished-at="2017-06-18T22:47:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetOccupation -->
-        <test-method status="PASS" signature="CountBlueBoxes()[pri:4, instance:digital.MappDigital@59fa1d9b]" name="CountBlueBoxes" duration-ms="144" started-at="2017-06-18T10:50:46Z" description="Count number of blue_boxes on page after form and enter into answer box #4" finished-at="2017-06-18T10:50:46Z">
+        <test-method status="PASS" signature="CountBlueBoxes()[pri:4, instance:digital.MappDigital@59fa1d9b]" name="CountBlueBoxes" duration-ms="155" started-at="2017-06-18T22:47:58Z" description="Count number of blue_boxes on page after form and enter into answer box #4" finished-at="2017-06-18T22:47:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CountBlueBoxes -->
-        <test-method status="PASS" signature="ClickLink()[pri:5, instance:digital.MappDigital@59fa1d9b]" name="ClickLink" duration-ms="82" started-at="2017-06-18T10:50:46Z" description="Click link that says &#039;click me&#039;" finished-at="2017-06-18T10:50:46Z">
+        <test-method status="PASS" signature="ClickLink()[pri:5, instance:digital.MappDigital@59fa1d9b]" name="ClickLink" duration-ms="91" started-at="2017-06-18T22:47:58Z" description="Click link that says &#039;click me&#039;" finished-at="2017-06-18T22:47:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickLink -->
-        <test-method status="PASS" signature="FindRedBoxClass()[pri:6, instance:digital.MappDigital@59fa1d9b]" name="FindRedBoxClass" duration-ms="183" started-at="2017-06-18T10:50:46Z" description="Find red box on its page find class applied to it, and enter into answer box #6" finished-at="2017-06-18T10:50:46Z">
+        <test-method status="PASS" signature="FindRedBoxClass()[pri:6, instance:digital.MappDigital@59fa1d9b]" name="FindRedBoxClass" duration-ms="213" started-at="2017-06-18T22:47:58Z" description="Find red box on its page find class applied to it, and enter into answer box #6" finished-at="2017-06-18T22:47:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FindRedBoxClass -->
-        <test-method status="PASS" signature="RunJavaScript()[pri:7, instance:digital.MappDigital@59fa1d9b]" name="RunJavaScript" duration-ms="13" started-at="2017-06-18T10:50:46Z" description="Run JavaScript function as: ran_this_js_function() from your Selenium script" finished-at="2017-06-18T10:50:46Z">
+        <test-method status="PASS" signature="RunJavaScript()[pri:7, instance:digital.MappDigital@59fa1d9b]" name="RunJavaScript" duration-ms="15" started-at="2017-06-18T22:47:59Z" description="Run JavaScript function as: ran_this_js_function() from your Selenium script" finished-at="2017-06-18T22:47:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RunJavaScript -->
-        <test-method status="PASS" signature="RunJavaScriptGetValue()[pri:8, instance:digital.MappDigital@59fa1d9b]" name="RunJavaScriptGetValue" duration-ms="123" started-at="2017-06-18T10:50:46Z" description="Run JavaScript function as: got_return_from_js_function() from your Selenium script, take returned value and place it in answer slot #8" finished-at="2017-06-18T10:50:46Z">
+        <test-method status="PASS" signature="RunJavaScriptGetValue()[pri:8, instance:digital.MappDigital@59fa1d9b]" name="RunJavaScriptGetValue" duration-ms="134" started-at="2017-06-18T22:47:59Z" description="Run JavaScript function as: got_return_from_js_function() from your Selenium script, take returned value and place it in answer slot #8" finished-at="2017-06-18T22:47:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RunJavaScriptGetValue -->
-        <test-method status="PASS" signature="MarkRadioButton()[pri:9, instance:digital.MappDigital@59fa1d9b]" name="MarkRadioButton" duration-ms="97" started-at="2017-06-18T10:50:46Z" description="Mark radio button on form for written book? to Yes" finished-at="2017-06-18T10:50:46Z">
+        <test-method status="PASS" signature="MarkRadioButton()[pri:9, instance:digital.MappDigital@59fa1d9b]" name="MarkRadioButton" duration-ms="116" started-at="2017-06-18T22:47:59Z" description="Mark radio button on form for written book? to Yes" finished-at="2017-06-18T22:47:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MarkRadioButton -->
-        <test-method status="PASS" signature="GetRedBoxText()[pri:10, instance:digital.MappDigital@59fa1d9b]" name="GetRedBoxText" duration-ms="185" started-at="2017-06-18T10:50:46Z" description="Get the text from the Red Box and place it in answer slot #10" finished-at="2017-06-18T10:50:47Z">
+        <test-method status="PASS" signature="GetRedBoxText()[pri:10, instance:digital.MappDigital@59fa1d9b]" name="GetRedBoxText" duration-ms="201" started-at="2017-06-18T22:47:59Z" description="Get the text from the Red Box and place it in answer slot #10" finished-at="2017-06-18T22:47:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetRedBoxText -->
-        <test-method status="PASS" signature="WhichBoxOnTop()[pri:11, instance:digital.MappDigital@59fa1d9b]" name="WhichBoxOnTop" duration-ms="185" started-at="2017-06-18T10:50:47Z" description="Which box is on top? orange or green -- place correct color in answer slot #11" finished-at="2017-06-18T10:50:47Z">
+        <test-method status="PASS" signature="WhichBoxOnTop()[pri:11, instance:digital.MappDigital@59fa1d9b]" name="WhichBoxOnTop" duration-ms="194" started-at="2017-06-18T22:47:59Z" description="Which box is on top? orange or green -- place correct color in answer slot #11" finished-at="2017-06-18T22:47:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WhichBoxOnTop -->
-        <test-method status="PASS" signature="ResizeBrowser()[pri:12, instance:digital.MappDigital@59fa1d9b]" name="ResizeBrowser" duration-ms="1231" started-at="2017-06-18T10:50:47Z" description="Set browser width to 850 and height to 650" finished-at="2017-06-18T10:50:48Z">
+        <test-method status="PASS" signature="ResizeBrowser()[pri:12, instance:digital.MappDigital@59fa1d9b]" name="ResizeBrowser" duration-ms="1270" started-at="2017-06-18T22:47:59Z" description="Set browser width to 850 and height to 650" finished-at="2017-06-18T22:48:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ResizeBrowser -->
-        <test-method status="PASS" signature="YesNoIfOnPageIsthere()[pri:13, instance:digital.MappDigital@59fa1d9b]" name="YesNoIfOnPageIsthere" duration-ms="144" started-at="2017-06-18T10:50:48Z" description="Type into answer slot 13 yes or no depending on whether item by id of ishere is on the page" finished-at="2017-06-18T10:50:48Z">
+        <test-method status="PASS" signature="YesNoIfOnPageIsthere()[pri:13, instance:digital.MappDigital@59fa1d9b]" name="YesNoIfOnPageIsthere" duration-ms="194" started-at="2017-06-18T22:48:00Z" description="Type into answer slot 13 yes or no depending on whether item by id of ishere is on the page" finished-at="2017-06-18T22:48:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- YesNoIfOnPageIsthere -->
-        <test-method status="PASS" signature="YesNoIfOnPageVisiblePurplebox()[pri:14, instance:digital.MappDigital@59fa1d9b]" name="YesNoIfOnPageVisiblePurplebox" duration-ms="143" started-at="2017-06-18T10:50:48Z" description="Type into answer slot 14 yes or no depending on whether item with id of purplebox is visible" finished-at="2017-06-18T10:50:48Z">
+        <test-method status="PASS" signature="YesNoIfOnPageVisiblePurplebox()[pri:14, instance:digital.MappDigital@59fa1d9b]" name="YesNoIfOnPageVisiblePurplebox" duration-ms="155" started-at="2017-06-18T22:48:01Z" description="Type into answer slot 14 yes or no depending on whether item with id of purplebox is visible" finished-at="2017-06-18T22:48:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- YesNoIfOnPageVisiblePurplebox -->
-        <test-method status="PASS" signature="WaitingGame()[pri:15, instance:digital.MappDigital@59fa1d9b]" name="WaitingGame" duration-ms="7412" started-at="2017-06-18T10:50:48Z" description="Waiting game: click the link with link text of &#039;click then wait&#039; a random wait will occur (up to 10 seconds) and then a new link will get added with link text of &#039;click after wait&#039; - click this new link within 500 ms of it appearing to pass this test" finished-at="2017-06-18T10:50:56Z">
+        <test-method status="PASS" signature="WaitingGame()[pri:15, instance:digital.MappDigital@59fa1d9b]" name="WaitingGame" duration-ms="5838" started-at="2017-06-18T22:48:01Z" description="Waiting game: click the link with link text of &#039;click then wait&#039; a random wait will occur (up to 10 seconds) and then a new link will get added with link text of &#039;click after wait&#039; - click this new link within 500 ms of it appearing to pass this test" finished-at="2017-06-18T22:48:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WaitingGame -->
-        <test-method status="PASS" signature="AcceptAlert()[pri:16, instance:digital.MappDigital@59fa1d9b]" name="AcceptAlert" duration-ms="60" started-at="2017-06-18T10:50:56Z" description="Click OK on the confirm after completing task 15" finished-at="2017-06-18T10:50:56Z">
+        <test-method status="PASS" signature="AcceptAlert()[pri:16, instance:digital.MappDigital@59fa1d9b]" name="AcceptAlert" duration-ms="64" started-at="2017-06-18T22:48:07Z" description="Click OK on the confirm after completing task 15" finished-at="2017-06-18T22:48:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AcceptAlert -->
-        <test-method status="PASS" signature="ClickSubmitButton()[pri:17, instance:digital.MappDigital@59fa1d9b]" name="ClickSubmitButton" duration-ms="147" started-at="2017-06-18T10:50:56Z" description="Click the submit button on the form" finished-at="2017-06-18T10:50:56Z">
+        <test-method status="PASS" signature="ClickSubmitButton()[pri:17, instance:digital.MappDigital@59fa1d9b]" name="ClickSubmitButton" duration-ms="87" started-at="2017-06-18T22:48:07Z" description="Click the submit button on the form" finished-at="2017-06-18T22:48:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickSubmitButton -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:digital.MappDigital@59fa1d9b]" name="tearDown" is-config="true" duration-ms="2281" started-at="2017-06-18T10:50:56Z" description="Close browser" finished-at="2017-06-18T10:50:58Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:digital.MappDigital@59fa1d9b]" name="tearDown" is-config="true" duration-ms="1060" started-at="2017-06-18T22:48:07Z" description="Close browser" finished-at="2017-06-18T22:48:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

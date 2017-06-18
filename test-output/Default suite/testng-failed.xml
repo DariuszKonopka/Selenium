@@ -5,9 +5,24 @@
     <classes>
       <class name="digital.MappDigital">
         <methods>
-          <include name="tearDown"/>
+          <include name="CountBlueBoxes"/>
+          <include name="YesNoIfOnPageVisiblePurplebox"/>
+          <include name="RunJavaScript"/>
+          <include name="GrabPageTitleToSlot1"/>
+          <include name="YesNoIfOnPageIsthere"/>
           <include name="setUp"/>
+          <include name="FindRedBoxClass"/>
+          <include name="SetOccupation"/>
+          <include name="AcceptAlert"/>
+          <include name="ClickLink"/>
+          <include name="FillOutNameSection"/>
+          <include name="WhichBoxOnTop"/>
+          <include name="tearDown"/>
           <include name="ClickSubmitButton"/>
+          <include name="MarkRadioButton"/>
+          <include name="RunJavaScriptGetValue"/>
+          <include name="GetRedBoxText"/>
+          <include name="WaitingGame"/>
         </methods>
       </class> <!-- digital.MappDigital -->
     </classes>
