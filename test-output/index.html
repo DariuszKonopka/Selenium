@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\Admin\AppData\Local\Temp\testng-eclipse-203995770\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="digital.MappDigital" hash-for-method="AcceptAlert">AcceptAlert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="digital.MappDigital" hash-for-method="ClickLink">ClickLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="digital.MappDigital" hash-for-method="ClickSubmitButton">ClickSubmitButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="digital.MappDigital" hash-for-method="CountBlueBoxes">CountBlueBoxes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="digital.MappDigital" hash-for-method="FillOutNameSection">FillOutNameSection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="digital.MappDigital" hash-for-method="FindRedBoxClass">FindRedBoxClass</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="digital.MappDigital" hash-for-method="GetRedBoxText">GetRedBoxText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="digital.MappDigital" hash-for-method="GrabPageTitleToSlot1">GrabPageTitleToSlot1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="digital.MappDigital" hash-for-method="MarkRadioButton">MarkRadioButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="digital.MappDigital" hash-for-method="ResizeBrowser">ResizeBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="digital.MappDigital" hash-for-method="RunJavaScript">RunJavaScript</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="digital.MappDigital" hash-for-method="RunJavaScriptGetValue">RunJavaScriptGetValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="digital.MappDigital" hash-for-method="SetOccupation">SetOccupation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="digital.MappDigital" hash-for-method="WaitingGame">WaitingGame</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="digital.MappDigital" hash-for-method="WhichBoxOnTop">WhichBoxOnTop</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="digital.MappDigital" hash-for-method="YesNoIfOnPageIsthere">YesNoIfOnPageIsthere</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="digital.MappDigital" hash-for-method="YesNoIfOnPageVisiblePurplebox">YesNoIfOnPageVisiblePurplebox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">digital.MappDigital</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AcceptAlert">
+                  </a> <!-- AcceptAlert -->
+                  <span class="method-name">AcceptAlert</span>
+                  <em>
+(Click OK on the confirm after completing task 15)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickLink">
+                  </a> <!-- ClickLink -->
+                  <span class="method-name">ClickLink</span>
+                  <em>
+(Click link that says 'click me')                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickSubmitButton">
+                  </a> <!-- ClickSubmitButton -->
+                  <span class="method-name">ClickSubmitButton</span>
+                  <em>
+(Click the submit button on the form)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CountBlueBoxes">
+                  </a> <!-- CountBlueBoxes -->
+                  <span class="method-name">CountBlueBoxes</span>
+                  <em>
+(Count number of blue_boxes on page after form and enter into answer box #4)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FillOutNameSection">
+                  </a> <!-- FillOutNameSection -->
+                  <span class="method-name">FillOutNameSection</span>
+                  <em>
+(Fill out name section of form to be Kilgore Trout)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FindRedBoxClass">
+                  </a> <!-- FindRedBoxClass -->
+                  <span class="method-name">FindRedBoxClass</span>
+                  <em>
+(Find red box on its page find class applied to it, and enter into answer box #6)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetRedBoxText">
+                  </a> <!-- GetRedBoxText -->
+                  <span class="method-name">GetRedBoxText</span>
+                  <em>
+(Get the text from the Red Box and place it in answer slot #10)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GrabPageTitleToSlot1">
+                  </a> <!-- GrabPageTitleToSlot1 -->
+                  <span class="method-name">GrabPageTitleToSlot1</span>
+                  <em>
+(Grab page title and place title text in answer slot #1)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MarkRadioButton">
+                  </a> <!-- MarkRadioButton -->
+                  <span class="method-name">MarkRadioButton</span>
+                  <em>
+(Mark radio button on form for written book? to Yes)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ResizeBrowser">
+                  </a> <!-- ResizeBrowser -->
+                  <span class="method-name">ResizeBrowser</span>
+                  <em>
+(Set browser width to 850 and height to 650)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RunJavaScript">
+                  </a> <!-- RunJavaScript -->
+                  <span class="method-name">RunJavaScript</span>
+                  <em>
+(Run JavaScript function as: ran_this_js_function() from your Selenium script)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RunJavaScriptGetValue">
+                  </a> <!-- RunJavaScriptGetValue -->
+                  <span class="method-name">RunJavaScriptGetValue</span>
+                  <em>
+(Run JavaScript function as: got_return_from_js_function() from your Selenium script, take returned value and place it in answer slot #8)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SetOccupation">
+                  </a> <!-- SetOccupation -->
+                  <span class="method-name">SetOccupation</span>
+                  <em>
+(Set occupation on form to Sci-Fi Author)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="WaitingGame">
+                  </a> <!-- WaitingGame -->
+                  <span class="method-name">WaitingGame</span>
+                  <em>
+(Waiting game: click the link with link text of 'click then wait' a random wait will occur (up to 10 seconds) and then a new link will get added with link text of 'click after wait' - click this new link within 500 ms of it appearing to pass this test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="WhichBoxOnTop">
+                  </a> <!-- WhichBoxOnTop -->
+                  <span class="method-name">WhichBoxOnTop</span>
+                  <em>
+(Which box is on top? orange or green -- place correct color in answer slot #11)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="YesNoIfOnPageIsthere">
+                  </a> <!-- YesNoIfOnPageIsthere -->
+                  <span class="method-name">YesNoIfOnPageIsthere</span>
+                  <em>
+(Type into answer slot 13 yes or no depending on whether item by id of ishere is on the page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="YesNoIfOnPageVisiblePurplebox">
+                  </a> <!-- YesNoIfOnPageVisiblePurplebox -->
+                  <span class="method-name">YesNoIfOnPageVisiblePurplebox</span>
+                  <em>
+(Type into answer slot 14 yes or no depending on whether item with id of purplebox is visible)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Admin\AppData\Local\Temp\testng-eclipse-203995770\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;digital.MappDigital&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'WaitingGame')
+data.setCell(0, 2, 'digital.MappDigital')
+data.setCell(0, 3, 7412);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'GrabPageTitleToSlot1')
+data.setCell(1, 2, 'digital.MappDigital')
+data.setCell(1, 3, 3151);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'ResizeBrowser')
+data.setCell(2, 2, 'digital.MappDigital')
+data.setCell(2, 3, 1231);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'FillOutNameSection')
+data.setCell(3, 2, 'digital.MappDigital')
+data.setCell(3, 3, 192);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'GetRedBoxText')
+data.setCell(4, 2, 'digital.MappDigital')
+data.setCell(4, 3, 185);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'WhichBoxOnTop')
+data.setCell(5, 2, 'digital.MappDigital')
+data.setCell(5, 3, 185);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'FindRedBoxClass')
+data.setCell(6, 2, 'digital.MappDigital')
+data.setCell(6, 3, 183);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'SetOccupation')
+data.setCell(7, 2, 'digital.MappDigital')
+data.setCell(7, 3, 159);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'ClickSubmitButton')
+data.setCell(8, 2, 'digital.MappDigital')
+data.setCell(8, 3, 147);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'YesNoIfOnPageIsthere')
+data.setCell(9, 2, 'digital.MappDigital')
+data.setCell(9, 3, 144);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'CountBlueBoxes')
+data.setCell(10, 2, 'digital.MappDigital')
+data.setCell(10, 3, 144);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'YesNoIfOnPageVisiblePurplebox')
+data.setCell(11, 2, 'digital.MappDigital')
+data.setCell(11, 3, 143);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'RunJavaScriptGetValue')
+data.setCell(12, 2, 'digital.MappDigital')
+data.setCell(12, 3, 123);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'MarkRadioButton')
+data.setCell(13, 2, 'digital.MappDigital')
+data.setCell(13, 3, 97);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'ClickLink')
+data.setCell(14, 2, 'digital.MappDigital')
+data.setCell(14, 3, 82);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'AcceptAlert')
+data.setCell(15, 2, 'digital.MappDigital')
+data.setCell(15, 3, 60);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'RunJavaScript')
+data.setCell(16, 2, 'digital.MappDigital')
+data.setCell(16, 3, 13);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">digital.MappDigital</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">GrabPageTitleToSlot1</span>
+                <span class="method-start">3785 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">FillOutNameSection</span>
+                <span class="method-start">6940 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SetOccupation</span>
+                <span class="method-start">7134 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CountBlueBoxes</span>
+                <span class="method-start">7294 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ClickLink</span>
+                <span class="method-start">7439 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">FindRedBoxClass</span>
+                <span class="method-start">7523 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">RunJavaScript</span>
+                <span class="method-start">7707 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">RunJavaScriptGetValue</span>
+                <span class="method-start">7721 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">MarkRadioButton</span>
+                <span class="method-start">7846 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">GetRedBoxText</span>
+                <span class="method-start">7944 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">WhichBoxOnTop</span>
+                <span class="method-start">8130 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ResizeBrowser</span>
+                <span class="method-start">8316 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">YesNoIfOnPageIsthere</span>
+                <span class="method-start">9550 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">YesNoIfOnPageVisiblePurplebox</span>
+                <span class="method-start">9695 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">WaitingGame</span>
+                <span class="method-start">9839 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AcceptAlert</span>
+                <span class="method-start">17252 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ClickSubmitButton</span>
+                <span class="method-start">17314 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17462 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
